@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 import { ColorModeContext, useMode } from './theme'
 import { Box, CssBaseline, ThemeProvider } from '@mui/material'
 import Topbar from './scenes/global/Topbar'
