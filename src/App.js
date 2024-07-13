@@ -51,6 +51,7 @@ function App() {
             </Box>
             <Box m="20px">
               <Routes>
+                <Route exact path="/react-admin-app" element={<Navigate to="/" />} />
                 <Route exact path="/" element={<Dashboard userName={userName} />}></Route>
                 <Route exact path="/team" element={<Team />}></Route>
                 <Route path="/contacts" element={<Contacts />}></Route>
